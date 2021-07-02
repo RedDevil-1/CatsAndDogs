@@ -4,6 +4,7 @@
 }
 html {
   height: 100%;
+  overflow-y: hidden;
 }
 body {
   margin-top: 0;
@@ -90,6 +91,29 @@ li {
   box-shadow: 0 0 25px black;
   height: 28vw;
   width: 37vw;
+}
+#dogList {
+  z-index: 2;
+}
+.goButton {
+  width: 6vw;
+  background: radial-gradient(#b2e653, #44610d);
+  padding: 6px;
+  visibility: hidden;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: #000;
+  border-radius: 12px;
+  font-size: calc(8px + 0.6vw);
+}
+.optionBgColor {
+  margin: 1vw;
+  padding: 5px;
+  font-size: calc(8px + 0.6vw);
+  background-color: transparent;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 6px 6px 6px #2f2f2f;
 }
 @keyframes fadein {
   0% {
